@@ -26,7 +26,6 @@ rabbit.addImage(rabbitImg);
 
 
 
-
 function draw() {
   background(0);
   
@@ -41,7 +40,7 @@ function draw() {
   var select_sprites = Math.round(random(1,2));
 
   if(frameCount % 80 == 0)  {
-    if(select_sprite === 1) {
+    if(select_sprites === 1) {
       createApples();
 }
     else {
